@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>registration</title>
+	<style type="text/css">
+		.a{
+			float: left; width: 150px; height: 150px; padding-left: 40px;
+		}
+		.b{
+			float: right; font-size: 40px; color: darkblue;
+		}
+		.d{
+			background-color: black;
+			margin-left: 35px;
+			margin-right: 20px;
+			line-height: 30px;
+			margin-top: 150px;
+		}
+		.e{
+			text-decoration-line: none;
+			padding-left: 20px;
+			color: white;
+			font-size: x-large;
+		}
+		form{
+			margin-left: 45px;
+		}
+		input{
+			margin-bottom: 10px;
+		}
+	</style>
+</head>
+<body>
+	<span style="margin:auto; display:table;font-size: xx-large;" >REGISTRATION PAGE:</span>
+	<a href="https://www.iiit.ac.in/"><img src="https://www.iiit.ac.in/img/iiit-new.png" class="a"></a>
+	<a href="https://serc.iiit.ac.in/rdip" class="b">RDIP</a>
+	<span class = "c">
+		<p class="d">
+			<a href="homepage.html" class="e">Home</a>
+			<a href="registration.html" class="e">Registration Form</a>
+		</p>
+	</span>
+	<form method="get" action="details.html">
+		<label for="fn">First name:</label>
+		<input type="text" id="fn" required><br>
+		<label for="mail">E-mail:</label>
+		<input type="email" id="mail" required><br>
+		<label for="no">Phone number:</label>
+		<input type="" id="no" required><br>
+		<label for="gender" required>Gender:</label>
+		<input type="radio" id="m" name ="g">
+		<label for="m">Male</label>
+		<input type="radio" id="f" name="g">
+		<label for="f">Female</label>
+		<input type="radio" id="o" name="g">
+		<label for="o">Other</label><br>
+		<label for="r" required>Reason for RDIP:</label>
+		<input type="checkbox" id="h">
+		<label for="h">HTML</label>
+		<input type="checkbox" id="c">
+		<label for="c">CSS</label>
+		<input type="checkbox" id="j">
+		<label for="j">JavaScript</label><br>
+		<label for="college">College:</label>
+		<input type="text" id="college" required><br>
+		<input type="checkbox" id="d" required>
+		<label for="d">I declare above details given by me are true</label><br>
+		<input type="submit">
+		<input type="reset">
+	</form>
+</body>
+</html>
